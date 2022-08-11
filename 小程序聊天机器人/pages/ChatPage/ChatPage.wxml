@@ -1,0 +1,21 @@
+<view class="mian"  wx:for="{{userData}}" wx:key="index" >
+
+<view class="Dialogboxleft" wx:if="{{item.type == 'robot' }}">
+		<image class="headerUrl" src="../../static/head.jpg"></image>
+		<view class="textBox">
+			{{item.info}}
+		</view>
+	</view>
+	
+	<view class="Dialogboxright" wx:else="{{item.type == 'user'  }}"  >
+		<image class="headerUrl" src="../../static/Right.jpg"></image>
+		<view class="textBox" style="background-color: rgb(88, 233, 120);">
+			{{item.info}}
+		</view>
+	</view>
+
+
+</view>
+<view class="foot">
+   <Foot bind:sendData="getData" />
+</view>

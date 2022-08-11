@@ -1,0 +1,43 @@
+.mian{
+	width: 100%;
+	padding-bottom: 30rpx;
+}
+.Dialogboxleft{
+	width: 80%;
+	display: flex;
+}
+.headerUrl {
+	margin: 20rpx;
+	margin-top: 10rpx;
+	width: 70rpx;
+	height:70rpx;
+	border-radius: 10rpx;
+}
+.textBox {
+		max-width: 80%;
+		height:100%;
+		border-radius: 15rpx;
+		background-color: rgb(24, 184, 233);
+		font-size: 40rpx;
+		color: aliceblue;
+		margin-top: 10rpx;
+		padding: 0rpx 5rpx;
+		padding: 10rpx;
+}
+.Dialogboxright{
+	float: right;
+	margin: 20rpx 0rpx;
+	width: 80%;
+}
+.Dialogboxright image {
+	float: right;
+}
+.Dialogboxright view {
+	float: right;
+}
+/* 底部样式 */
+.foot{
+	width: 100%;
+	position: fixed;
+	bottom: 0rpx;
+	}

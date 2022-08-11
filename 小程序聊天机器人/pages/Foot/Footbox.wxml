@@ -1,0 +1,9 @@
+<view class="footbox">
+<image src="/static/Right.jpg"></image>
+<input type="text"  
+						hold-keyboard="{{true}}"
+						cursor-spacing="{{15}}"
+						bindinput="getDataInput" 
+						value="{{inputData}}" />
+<view bindtap="getData">发送</view>
+</view>
